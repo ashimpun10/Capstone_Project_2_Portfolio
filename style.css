@@ -1,0 +1,178 @@
+section.nevb{
+    background-color: #bfd6c4;
+    padding-top:1rem;
+    padding-bottom :1rem;
+}
+.gre{
+    display:grid;
+    grid-template: 1fr/2fr 10fr 1fr 1fr 1fr 2fr;
+}
+.ev{
+    font-weight: 550;
+    font-size:1rem;
+}
+
+
+
+#intro{
+    background-color: #f9f9f9;
+}
+section{
+    padding-top:5rem;
+    padding-bottom:5rem;
+    text-align:center;
+}
+h1{
+
+    font-family: "IBM Plex Mono", serif;
+    font-size: 4rem;
+    padding-bottom:3rem;
+}
+h1.ap{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family:"Bona Nova SC", serif;
+}
+
+
+
+.grii{
+    display:flex;
+    gap:3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img.sk{
+    height:10rem;
+}
+
+
+
+#projects{
+    background-color: #f9f9f9;
+}
+.ro{
+    display:flex;
+    gap:3rem;
+    flex-wrap: wrap;
+}
+.im{
+    font-size: 2rem;
+   
+}
+.f{
+    text-decoration: none;
+    text-align: center;
+    padding-right:0px;
+    color:black;
+}
+.d{
+    height:200px;
+}
+.c{
+    flex:1;
+    padding:1rem;
+}
+
+
+
+
+
+.fex{
+    display:flex;
+    gap:3rem;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+.fix{
+    flex:1;
+    min-width: 610px;
+}
+.e{
+    width:300px;
+    height:200px;
+    float:left;
+    padding-right: 2rem;
+}
+h2, .abp{
+    text-align: left;
+}
+.abp{
+    font-size:1.5rem;
+}
+
+
+
+.contact{
+    background-color: #bfd6c4e6;
+}
+.me{
+    display:flex;
+    justify-content: center;
+    gap:3rem;
+}
+.co>a{
+    color:black;
+}
+
+footer{
+    background-color: #909090;
+    height:4rem;
+}
+footer>p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom:0px;
+    padding-top:1rem;
+}
+
+
+@media (max-width:950px){
+    .ev{
+        font-size: 0.9rem;
+    }
+    .gre{
+        grid-template: 1fr/2fr 7fr 1fr 1fr 1fr 2fr;
+    }
+}
+
+@media (max-width:750px){
+    .ev{
+        font-size: 0.9rem;
+    }
+    .gre{
+        grid-template: 1fr/2fr 5fr 1fr 1fr 1fr 2fr;
+    }
+}
+
+@media (max-width:630px){
+    .ev{
+        font-size: 0.85rem;
+    }
+    .gre{
+        grid-template: 1fr/2fr 3fr 1fr 1fr 1fr 2fr;
+    }
+    .fex{
+        display:block
+    }
+    .fix{
+        display:flex;
+        flex-direction: column;  
+        flex-wrap:wrap;
+        min-width:0;
+    }
+    .fax{
+        flex:1
+    }
+}
+
+@media (max-width:500px){
+    .ev{
+        font-size: 0.85rem;
+    }
+    .gre{
+        grid-template: 1fr/2fr 0fr 1fr 1fr 1fr 2fr;
+    }
+}
+
+
